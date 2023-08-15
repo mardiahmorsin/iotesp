@@ -121,8 +121,6 @@ void setup() {
   Blynk.begin(auth, ssid, pass);
   pinMode(13,OUTPUT);
  pinMode(14,OUTPUT);
- pinMode(25,OUTPUT);
-  pinMode(18,OUTPUT);
  pinMode(19,OUTPUT);
  pinMode(15,OUTPUT);
   servo_23.attach(23);
