@@ -103,8 +103,7 @@ int pinValue = param.asInt();
   }
 }
 
-Servo servo_23;
-BLYNK_WRITE(V4)
+
 {
 int pinValue = param.asInt();
   if (pinValue == 1) {
@@ -124,7 +123,9 @@ void setup() {
  pinMode(14,OUTPUT);
  pinMode(25,OUTPUT);
   pinMode(18,OUTPUT);
- 
+ pinMode(19,OUTPUT);
+ pinMode(15,OUTPUT);
+  servo_23.attach(23);
 }
 
 void loop() {
