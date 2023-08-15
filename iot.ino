@@ -126,6 +126,7 @@ void setup() {
  pinMode(19,OUTPUT);
  pinMode(15,OUTPUT);
   servo_23.attach(23);
+  servo_23.attach(24);
 }
 
 void loop() {
