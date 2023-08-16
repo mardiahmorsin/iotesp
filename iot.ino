@@ -119,12 +119,12 @@ int pinValue = param.asInt();
 void setup() {
   Serial.begin(9600);
   Blynk.begin(auth, ssid, pass);
-  pinMode(13,OUTPUT);
- pinMode(14,OUTPUT);
- pinMode(19,OUTPUT);
- pinMode(15,OUTPUT);
-   pinMode(24,OUTPUT);
- pinMode(25,OUTPUT);
+  pinMode(13,OUTPUT); //motor1
+ pinMode(14,OUTPUT);	//motor2
+ pinMode(19,OUTPUT);	//motor3
+ pinMode(15,OUTPUT);	//motor4
+   pinMode(24,OUTPUT);	//rgb
+ pinMode(25,OUTPUT);	//ir
   servo_23.attach(23);
   servo_24.attach(24);
 }
