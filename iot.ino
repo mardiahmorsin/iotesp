@@ -4,7 +4,7 @@
 #define BLYNK_DEVICE_NAME           "exercise 1"
 #define BLYNK_AUTH_TOKEN            "O9zaUkU4trApy580Bb9k2p75yhQrLtYW"
 
-
+mot kiri 
 #define BLYNK_PRINT Serial
 
 
