@@ -123,8 +123,10 @@ void setup() {
  pinMode(14,OUTPUT);
  pinMode(19,OUTPUT);
  pinMode(15,OUTPUT);
+   pinMode(24,OUTPUT);
+ pinMode(25,OUTPUT);
   servo_23.attach(23);
-  servo_23.attach(24);
+  servo_24.attach(24);
 }
 
 void loop() {
