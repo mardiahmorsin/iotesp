@@ -7,6 +7,8 @@
 mot kiri 
 #define BLYNK_PRINT Serial
 
+//// editing 5 IR sensor at 3 IR sensor
+
 
 #include <WiFi.h>
 #include <WiFiClient.h>
